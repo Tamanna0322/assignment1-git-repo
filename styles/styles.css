@@ -3,7 +3,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Inter', sans-serif;
 }
 
 .banner {
@@ -12,7 +13,7 @@
     margin: 0 auto;
 }
 
-.items {  
+.items {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner-Image.png');
     background-size: cover;
     background-position: center, center;
@@ -22,22 +23,110 @@
     margin-top: 30px;
     display: block;
 }
-.items h2{
+
+.items h2 {
     padding-top: 177px;
     color: #FFF;
+    font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
     text-align: center;
+    margin-bottom: 16px;
 }
-.items #new p{
+
+.items #new p {
     max-width: 518 px;
 }
-.items p{
+
+.items p {
     color: #FFFFFF;
     font-size: 72px;
+    font-family: Merriweather;
     font-weight: 900;
     text-align: center;
     padding: 0px 344px;
 }
 
+.offer {
+    display: block;
+    text-align: center;
+    margin-top: 120px;
+}
 
+.offer h2 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.offer p {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer #categories {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.offer .offer-img {
+    max-width: 657px;
+}
+
+.party {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    height: 600px;
+    border-radius: 16px;
+    margin-top: 120px;
+}
+
+.party .midnight {
+    padding-top: 126px;
+    padding-left: 126px;
+
+}
+
+.party h3 {
+    max-width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+.party{
+    display: flex;
+    align-items: center;
+}
+
+.party p {
+    max-width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+.party #join{
+
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-left: 32px;
+margin-bottom: 130px;
+}
+.party img{
+    width: 100%;
+    padding: 68px 0;
+}
